@@ -1,0 +1,162 @@
+/* TITULO */
+
+/* PRODUCTOS COMIDA */
+
+/* TITULO */
+#productos h1{
+    padding: 10px;
+    font-size: 40px;
+    color: rgb(0, 0, 0);
+    background-color: #f0e32f;
+}
+#productos {
+    text-align: center;
+    padding: 20px;
+}
+
+.productos-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.producto {
+    background-color: #ffffff;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    margin: 10px;
+    padding: 20px;
+    width: 250px;
+    text-align: center;
+    transition: transform 0.2s;
+}
+
+.producto img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+.producto h2 {
+    font-size: 1.2em;
+    margin: 10px 0;
+}
+
+.producto .precio {
+    color: black;
+    font-size: 1.1em;
+    margin: 10px 0;
+}
+
+
+.producto button {
+    margin: 15px;
+    background-color: #28a745;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1em;
+}
+.producto button i{
+    padding-right: 5px;
+}
+
+.producto button:hover {
+    background-color: #218838;
+}
+
+.producto:hover {
+    transform: scale(1.05);
+}
+
+@media (max-width: 768px) {
+    .productos-container {
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
+/* PRODUCTOS BEBIDAS */
+/* SECCION DE BOTONES */
+.contenedor_Botones_Bebidas{
+    display: flex;
+    justify-content: center;
+}
+.contenedor_Botones_Bebidas a{
+
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+    margin: 15px;
+    padding: 15px;
+    background-color: rgb(0, 33, 93);
+    border-radius: 10px;
+    border: 2px solid rgb(255, 255, 255);
+}
+.contenedor_Botones_Bebidas a:hover{
+    background-color:rgb(0, 55, 158) ;
+    transform: scale(1.05);
+}
+/* SUBTITULOS ESTILOS */
+#SubTitles_BSA,
+#SubTitles_BC,
+#SubTitles_BCOC{
+    font-size: 30px;
+    color: black;
+    padding: 15px;
+}
+.producto {
+    border: 1px solid #ddd;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+    background-color: #1e97cf;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    max-width: 300px;
+    margin: 20px auto;
+}
+
+.imagen-producto {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+    margin-bottom: 15px;
+}
+
+h2 {
+    color: white;
+    font-size: 24px;
+    margin: 10px 0;
+}
+
+.precio {
+    color: #e74c3c;
+    font-size: 20px;
+    font-weight: bold;
+    margin: 15px 0;
+}
+
+.opciones {
+    margin: 10px 0;
+}
+
+select {
+    padding: 8px;
+    font-size: 16px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+label {
+    font-weight: bold;
+    margin-right: 10px;
+}
+
+select:focus {
+    outline: none;
+    border-color: #3498db;
+    box-shadow: 0px 0px 5px rgba(52, 152, 219, 0.5);
+}
